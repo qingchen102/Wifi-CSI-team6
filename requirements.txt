@@ -1,0 +1,17 @@
+# 基础科学计算
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# SVM（提供 libsvm.svmutil）
+libsvm-official>=3.35
+
+# 串口采集
+pyserial>=3.5
+
+# 实时可视化界面（run_realtime.py 调用课件 GUI 时需要）
+PyQt5>=5.15
+pyqtgraph>=0.13
+
+# 注意：不要安装 requirements.txt 里的 serial==0.0.97，
+# 那是空壳包，会覆盖 pyserial 导致 ImportError。
